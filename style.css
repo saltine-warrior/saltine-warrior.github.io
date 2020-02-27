@@ -1,5 +1,5 @@
 body {
-	background-color: #FFFFF9;
+	background-color: #FEEED1;
 	font-family: 'latoregular';
 }
 
@@ -13,7 +13,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top right;
-	max-width: 40rem;
+	max-width: 30rem;
 	height: 140vh;
 	margin-left: auto;
 	margin-right: auto;
