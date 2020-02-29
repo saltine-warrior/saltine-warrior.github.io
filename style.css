@@ -1,0 +1,171 @@
+.style-off {
+	text-decoration: none;
+	color: inherit;
+}
+
+#readmore {
+	position: absolute;
+	margin-top: 80vh;
+}
+
+#readprev {
+	position: absolute;
+	margin-top: 80vh;
+}
+
+body {
+	background-color: #FEEED1;
+	font-family: 'latoregular';
+}
+
+.background {
+	background-image: url("sw_4.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top right;
+	max-width: 35rem;
+	height: 140vh;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 3vh solid #000000;
+}
+
+.name {
+	padding-top: 40vh;
+	font-family: 'latobold';
+	color: #F2CA88;
+	font-size: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
+	text-shadow: 0.07em 0 0 #f72727, 0 -0.05em 0 #000, 0 0.05em 0 #000, -0.05em 0 0 #000;
+	text-align: center;
+}
+
+.content {
+	max-width: 35rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.post {
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	color: #5E5E5E;
+}
+
+.body {
+	font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1600 - 300)));
+	line-height: 1.5em;
+}
+
+.post h1 {
+	font-family: 'latobold';
+	font-size: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
+	line-height: 1em;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.post h2 {
+	font-family: 'latobold';
+	font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+	line-height: 1em;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.post p {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.post .body a:link {
+	color: #079ab7;
+	text-decoration: none;
+	font-family: 'latobold';
+}
+.post .body a:visited {
+	color: #079ab7;
+	text-decoration: none;
+	font-family: 'latobold';
+}
+.post .body a:hover {
+	color: #079ab7;
+	text-decoration: none;
+	font-family: 'latobold';
+}
+.post .body a:active {
+	color: #079ab7;
+	text-decoration: none;
+	font-family: 'latobold';
+}
+
+.post strong {
+	font-family: 'latobold';
+}
+
+.post em {
+	font-family: 'latoitalic';
+}
+
+.post blockquote {
+	background: #f7e7c9;
+	border-left: 3vh solid #000;
+	padding: 0.5em;
+	color: #000;
+}
+
+.post img {
+	vertical-align: middle;
+	width: 100%;
+}
+
+.post blockquote p {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.post ul { 
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+.post ol { 
+	list-style-type: upper-roman;
+	list-style-position: inside;
+}
+
+.post .signature {
+	font-family: 'latoitalic';
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.read {
+	font-family: 'latoblack';
+	border: 0.5vh solid #000;
+	font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1600 - 300)));
+	line-height: 1.5em;
+	padding: 1vh;
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.read:hover {
+	background-color: #F2D29D;
+	cursor: pointer;
+}
+
+.footer {
+	background-image: url("sw_4.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top right;
+	font-size: calc(25px + (30 - 25) * ((100vw - 300px) / (1600 - 300)));
+	text-shadow: 0.07em 0 0 #f72727, 0 -0.05em 0 #000, 0 0.05em 0 #000, -0.05em 0 0 #000;
+	text-align: center;
+	font-family: 'latobold';
+	height: 40vh;
+	color: #F2CA88;
+	padding-top: 3rem;
+	border-bottom: 3vh solid #000000;
+}
